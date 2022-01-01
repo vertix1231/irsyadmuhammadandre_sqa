@@ -87,17 +87,30 @@ public class StepDefinition {
 
 	@Then("^diarahkan dari registrasi ke Login akun di uiux wordpress dari akun yang sudah di registrasi")
 	public void loginPage() {
+		/////SESI DUA PILIHAN LOGIN ATAU REGISTER
+		
+		/////1.
 		// ada sewaktu kayak timeout session dan disuruh login secara wordpress lagi
 		// setelah register...pakai seperlunya aja metod dibawah ini
 		// kalau g perlu komen aja
 		registerPage.AfterRegisterloginOptionalWordpress();
+		
+		/////2.
 		//fitur login aslinya
 //		loginPage.loginUser();
+		
+		//HASIL LAPORAN
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,10)");
+		if(registerPage.getHelloToYourAccountIndicator().isDisplayed()) {
+			System.out.println("Scenario loginPage Methode passes");
+			extentTest.log(LogStatus.PASS,"diarahkan dari registrasi ke Login akun di uiux wordpress dari akun yang sudah di registrasi");
+		}else {
+			System.out.println("Scenario loginPage Methode fail");
+			extentTest.log(LogStatus.ERROR,"diarahkan dari registrasi ke Login akun di uiux wordpress dari akun yang sudah di registrasi");
+		}
 //		assertEquals(configurationProperties.getHellokamuakun(), registerPage.getHelloToYourAccountIndicator());
-		extentTest.log(LogStatus.PASS,"diarahkan dari registrasi ke Login akun di uiux wordpress dari akun yang sudah di registrasi");
-	
+		
 	}
 	
 	//SESI FITUR CART
@@ -114,9 +127,16 @@ public class StepDefinition {
 		cartPage.Shoes_from_Compare_Product();
 		cartPage.searchShopFeature("glass");
 		cartPage.Glass_from_Search_Product();
+		if(cartPage.getBtnViewCart().isDisplayed()) {
+			System.out.println("scenario shopping methode passed");
+			extentTest.log(LogStatus.PASS,"Menambah Shoes from Compare Product dan Menambah Glass from Search");
+			
+		}else {
+			System.out.println("scenario shopping methode fail");
+			extentTest.log(LogStatus.ERROR,"Menambah Shoes from Compare Product dan Menambah Glass from Search");
+		}
 		cartPage.ViewCartShooping();
-		extentTest.log(LogStatus.PASS,"Menambah Shoes from Compare Product dan Menambah Glass from Search");
-	
+		
 	}
 	
 	//SESI FITUR CHECKOUT
@@ -137,8 +157,15 @@ public class StepDefinition {
 	
 	@Then("^Place order untuk shipping")
 	public void placeOrderForCheckout() {
+		if(checkoutPage.getGetThxFortheOrder().isDisplayed()) {
+			System.out.println("scenario placeorder passed");
+			extentTest.log(LogStatus.PASS,"Place order untuk shipping");
+		}else {
+			System.out.println("scenario placeorder fail");
+			extentTest.log(LogStatus.ERROR,"Place order untuk shipping");
+		}
 //		assertEquals(configurationProperties.getThxfortheorder(),checkoutPage.getGetThxFortheOrder());
-		extentTest.log(LogStatus.PASS,"Place order untuk shipping");
+		
 //	
 	}
 	

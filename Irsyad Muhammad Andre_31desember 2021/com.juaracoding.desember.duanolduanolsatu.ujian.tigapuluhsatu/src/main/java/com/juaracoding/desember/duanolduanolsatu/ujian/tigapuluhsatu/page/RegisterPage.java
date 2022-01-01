@@ -45,7 +45,7 @@ public class RegisterPage {
 	@FindBy(css="#wp-submit")
 	private WebElement afterregiswordpressbtnlogin_login;
 	
-	@FindBy(xpath="//*[@id=\"post-8\"]/div/div/div/p[1]/text()[1]")
+	@FindBy(xpath="//*[@id=\"post-8\"]/div/div/div/p[2]")
 	private WebElement heloSuccesIntoAccount;
 	
 	public void clickMyaccoutToRegister() {
@@ -68,9 +68,9 @@ public class RegisterPage {
 		
 	}
 	
-	public String getHelloToYourAccountIndicator() {
+	public WebElement getHelloToYourAccountIndicator() {
 		
-		return heloSuccesIntoAccount.getText().toString();
+		return heloSuccesIntoAccount;
 	}
 
 

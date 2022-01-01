@@ -61,13 +61,19 @@ public class CartPage {
 	@FindBy(css="#noo-site > div.noo-container-shop.noo-shop-wrap.noo-shop-single-fullwidth > div > div > div.woocommerce-notices-wrapper > div > a")
 	private WebElement btnViewCart;
 	
+	public WebElement getBtnViewCart() {
+		return btnViewCart;
+	}
+
 	@FindBy(css="#noo-site > div.noo-container-shop.noo-shop-wrap > div.noo-row > div > div > div.noo-product-item.one.noo-product-sm-4.not_featured.post-1281.product.type-product.status-publish.has-post-thumbnail.product_cat-shoes.product_tag-shoes.product_tag-women.has-featured.instock.sale.shipping-taxable.purchasable.product-type-variable > div > div.noo-product-thumbnail > div.noo-product-meta > div.woocommerce.product.compare-button > a")
 	private WebElement btncompareproduct;
 	
 	@FindBy(xpath="//*[@id=\"DataTables_Table_0\"]/tbody/tr[5]/td/a")
 	private WebElement btnselectoptions_item_selected;
 
-	@FindBy(xpath="//a[@aria-label='Select options for “black pointed toe barely there patent heels”']\"")
+//	@FindBy(xpath="//a[@aria-label='Select options for “black pointed toe barely there patent heels”']\"")
+//	private WebElement btnselect_option_newFromComapare;
+	@FindBy(css="#DataTables_Table_0 > tbody > tr.add-to-cart.odd > td > a")
 	private WebElement btnselect_option_newFromComapare;
 	
 	
@@ -115,9 +121,9 @@ public class CartPage {
 	}
 	public void  Shoes_from_Compare_Product() {
 		chooseShoes();
-		sleepDelayCostum();
-		sleepDelayCostum();
-		chooseShoesDetail();
+//		sleepDelayCostum();
+//		sleepDelayCostum();
+//		chooseShoesDetail();
 //		ContinueCartShooping();
 		
 //		searchShopFeature();
@@ -135,21 +141,12 @@ public class CartPage {
 //		js.executeScript("window.scrollBy(0,-100)");
 //		WebDriverWait driver_wait = new WebDriverWait(driver, 5);
 		
-		
+		shoesblackheels_selected.click();
 		
 //		btncompareproduct.click();
-		shoesblackheels_selected.click();
-//		driver_wait.until(ExpectedConditions.elementToBeSelected(btnselect_option_newFromComapare));
-//		sleepDelayCostum();
-//		sleepDelayCostum();
 //		btnselect_option_newFromComapare.click();
-		
-//		compareWindowBody.click();
-//		sleepDelayCostum();
-//		sleepDelayCostum();
-//		btnselectoptions_item_selected.click();
-//		sleepDelayCostum();
-//		sleepDelayCostum();
+//		driver_wait.until(ExpectedConditions.elementToBeSelected(btnselect_option_newFromComapare));
+
 		
 	}
 	
@@ -227,5 +224,7 @@ public class CartPage {
 			e.printStackTrace();
 		}
 	}
+
+
 	
 }

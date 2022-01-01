@@ -220,3 +220,55 @@
 2022-01-01 15:31:01,038 INFO  [Log] INFO: Navigating to https://shop.demoqa.com/ 
 2022-01-01 15:31:07,754 INFO  [Log] Test called: test case Pemakaian fitur cart dari barang yang akan dibeli has started 
 2022-01-01 15:31:35,896 INFO  [Log] Test called: test case Fitur checkout pembelian seluruh item barang has started 
+2022-01-01 21:00:10,351 INFO  [Log] Test called: test case Register dan Login ke akun https://shop.demoqa.com/ has started 
+2022-01-01 21:00:35,888 INFO  [Log] INFO: Navigating to https://shop.demoqa.com/ 
+2022-01-01 21:00:54,082 INFO  [Log] Test called: test case Pemakaian fitur cart dari barang yang akan dibeli has started 
+2022-01-01 21:01:50,771 INFO  [Log] Test called: test case Fitur checkout pembelian seluruh item barang has started 
+2022-01-01 21:09:05,155 INFO  [Log] Test called: test case Register dan Login ke akun https://shop.demoqa.com/ has started 
+2022-01-01 21:09:32,862 INFO  [Log] INFO: Navigating to https://shop.demoqa.com/ 
+2022-01-01 21:09:40,905 INFO  [Log] Test called: test case Pemakaian fitur cart dari barang yang akan dibeli has started 
+2022-01-01 21:10:28,473 INFO  [Log] Test called: test case Fitur checkout pembelian seluruh item barang has started 
+2022-01-01 21:11:23,163 INFO  [Log] Test called: test case Register dan Login ke akun https://shop.demoqa.com/ has started 
+2022-01-01 21:12:08,812 INFO  [Log] INFO: Navigating to https://shop.demoqa.com/ 
+2022-01-01 21:12:24,687 INFO  [Log] Test called: test case Pemakaian fitur cart dari barang yang akan dibeli has started 
+2022-01-01 21:12:31,438 INFO  [Log] Test called: test case Fitur checkout pembelian seluruh item barang has started 
+2022-01-01 21:34:06,586 INFO  [Log] Test called: test case Register dan Login ke akun https://shop.demoqa.com/ has started 
+2022-01-01 21:34:31,504 INFO  [Log] INFO: Navigating to https://shop.demoqa.com/ 
+2022-01-01 21:34:38,633 INFO  [Log] Test called: test case Pemakaian fitur cart dari barang yang akan dibeli has started 
+2022-01-01 21:34:47,506 INFO  [Log] Test called: test case Fitur checkout pembelian seluruh item barang has started 
+2022-01-01 21:35:41,329 INFO  [Log] Test called: test case Register dan Login ke akun https://shop.demoqa.com/ has started 
+2022-01-01 21:36:25,953 INFO  [Log] INFO: Navigating to https://shop.demoqa.com/ 
+2022-01-01 21:36:30,712 INFO  [Log] Test called: test case Pemakaian fitur cart dari barang yang akan dibeli has started 
+2022-01-01 21:36:33,534 INFO  [Log] Test called: test case Fitur checkout pembelian seluruh item barang has started 
+2022-01-01 21:37:33,016 INFO  [Log] Test called: test case Register dan Login ke akun https://shop.demoqa.com/ has started 
+2022-01-01 21:37:59,471 INFO  [Log] INFO: Navigating to https://shop.demoqa.com/ 
+2022-01-01 21:38:07,572 INFO  [Log] Test called: test case Pemakaian fitur cart dari barang yang akan dibeli has started 
+2022-01-01 21:38:17,469 INFO  [Log] Test called: test case Fitur checkout pembelian seluruh item barang has started 
+2022-01-01 21:39:43,145 INFO  [Log] Test called: test case Register dan Login ke akun https://shop.demoqa.com/ has started 
+2022-01-01 21:40:12,199 INFO  [Log] INFO: Navigating to https://shop.demoqa.com/ 
+2022-01-01 21:40:18,285 INFO  [Log] Test called: test case Pemakaian fitur cart dari barang yang akan dibeli has started 
+2022-01-01 21:40:26,094 INFO  [Log] Test called: test case Fitur checkout pembelian seluruh item barang has started 
+2022-01-01 21:42:08,526 INFO  [Log] Test called: test case Register dan Login ke akun https://shop.demoqa.com/ has started 
+2022-01-01 21:42:32,940 INFO  [Log] INFO: Navigating to https://shop.demoqa.com/ 
+2022-01-01 21:42:43,807 INFO  [Log] Test called: test case Pemakaian fitur cart dari barang yang akan dibeli has started 
+2022-01-01 21:42:48,953 INFO  [Log] Test called: test case Fitur checkout pembelian seluruh item barang has started 
+2022-01-01 21:46:53,391 INFO  [Log] Test called: test case Register dan Login ke akun https://shop.demoqa.com/ has started 
+2022-01-01 21:47:19,702 INFO  [Log] INFO: Navigating to https://shop.demoqa.com/ 
+2022-01-01 21:47:29,364 INFO  [Log] Test called: test case Pemakaian fitur cart dari barang yang akan dibeli has started 
+2022-01-01 21:47:39,941 INFO  [Log] Test called: test case Fitur checkout pembelian seluruh item barang has started 
+2022-01-01 21:49:30,033 INFO  [Log] Test called: test case Register dan Login ke akun https://shop.demoqa.com/ has started 
+2022-01-01 21:49:55,666 INFO  [Log] INFO: Navigating to https://shop.demoqa.com/ 
+2022-01-01 21:50:09,203 INFO  [Log] Test called: test case Pemakaian fitur cart dari barang yang akan dibeli has started 
+2022-01-01 21:50:28,031 INFO  [Log] Test called: test case Fitur checkout pembelian seluruh item barang has started 
+2022-01-01 21:51:32,227 INFO  [Log] Test called: test case Register dan Login ke akun https://shop.demoqa.com/ has started 
+2022-01-01 21:52:00,812 INFO  [Log] INFO: Navigating to https://shop.demoqa.com/ 
+2022-01-01 21:52:10,433 INFO  [Log] Test called: test case Pemakaian fitur cart dari barang yang akan dibeli has started 
+2022-01-01 21:52:28,423 INFO  [Log] Test called: test case Fitur checkout pembelian seluruh item barang has started 
+2022-01-01 22:08:29,722 INFO  [Log] Test called: test case Register dan Login ke akun https://shop.demoqa.com/ has started 
+2022-01-01 22:08:55,474 INFO  [Log] INFO: Navigating to https://shop.demoqa.com/ 
+2022-01-01 22:09:06,521 INFO  [Log] Test called: test case Pemakaian fitur cart dari barang yang akan dibeli has started 
+2022-01-01 22:09:38,060 INFO  [Log] Test called: test case Fitur checkout pembelian seluruh item barang has started 
+2022-01-01 22:14:02,598 INFO  [Log] Test called: test case Register dan Login ke akun https://shop.demoqa.com/ has started 
+2022-01-01 22:14:31,520 INFO  [Log] INFO: Navigating to https://shop.demoqa.com/ 
+2022-01-01 22:14:43,495 INFO  [Log] Test called: test case Pemakaian fitur cart dari barang yang akan dibeli has started 
+2022-01-01 22:15:09,205 INFO  [Log] Test called: test case Fitur checkout pembelian seluruh item barang has started 

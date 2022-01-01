@@ -81,10 +81,12 @@ public class CheckoutPage {
 	@FindBy(css="#billing_email")
 	private WebElement emailorder;
 	
+
+	
 	
 
-	public String getGetThxFortheOrder() {
-		return getThxFortheOrder.getText();
+	public WebElement getGetThxFortheOrder() {
+		return getThxFortheOrder;
 	}
 
 	public void proceedCheckoutChart() {
